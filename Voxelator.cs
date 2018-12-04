@@ -1,15 +1,14 @@
 private void RunScript(Mesh BVol, Plane BPlane, double x, double y, double z, ref object A, ref object Voxize, ref object Voxenters, ref object Boxels)
   {
-  /*The algorithm is based on 
+  /*TThe algorithm is designed based on 
   P. Nourian, R. Gonçalves, S. Zlatanova, K. A. Ohori, and A. Vu Vo, 
   “Voxelization algorithms for geospatial applications: Computational methods for voxelating spatial datasets of 3D city models containing 3D surface, curve and point data models,” 
   MethodsX, vol. 3, pp. 69–86, 2016.
   
-  and code designed and written by Pirouz Nourian
-  BSD 3-Clause License
+  The code has been written by Pirouz Nourian and is licensed with 'a modified BSD 3-Clause License'
+  A full description of the license is privided in the git repository: https://gitlab.com/Pirouz-Nourian/spatial_computing/tree/master
   Copyright (c) 2018, Pirouz Nourian
   All rights reserved.
-  A full description of the license is privided in the git repository: https://gitlab.com/Pirouz-Nourian/spatial_computing/tree/master
 */
     Vector3d VoxelSize = new Vector3d(x, y, z);
     Voxize = VoxelSize;
