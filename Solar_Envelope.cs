@@ -1,10 +1,13 @@
   private void RunScript(List<Vector3d> SunVecs, List<Mesh> Boxels, List<Point3d> Points, List<Vector3d> Normals, double Percent, ref object Blockage, ref object NonBlocking, ref object FBoxels)
   {
-/*Algorithm and code designed and written by Pirouz Nourian
-  BSD 3-Clause License
-  Copyright (c) 2018, Pirouz Nourian
-  All rights reserved.
-  A full description of the license is privided in the git repository: https://gitlab.com/Pirouz-Nourian/spatial_computing/tree/master  
+/*the algorithm has been designed based on 
+    [1]	P. Nourian, R. Gonçalves, S. Zlatanova, K. A. Ohori, and A. Vu Vo, “Voxelization algorithms for geospatial applications: Computational methods for voxelating spatial datasets of 3D city models containing 3D surface, curve and point data models,” MethodsX, vol. 3, pp. 69–86, 2016.
+    [2]	F. De Luca, “Solar Form-finding . Subtractive Solar Envelope and Integrated Solar Collection Computational Method for High-rise Bui ....,” Proc. 37th Annu. Conf. Assoc. Comput. Aided Des. Archit. (ACADIA 2017), no. November, pp. 212–221, 2017.
+    The code has been written by Pirouz Nourian:
+    BSD 3-Clause License
+    Copyright (c) 2018, Pirouz Nourian
+    All rights reserved.
+    A full description of the license is privided in the git repository: https://gitlab.com/Pirouz-Nourian/spatial_computing/tree/master  
 */  
     int n = SunVecs.Count;
     int PointCount = Points.Count;
