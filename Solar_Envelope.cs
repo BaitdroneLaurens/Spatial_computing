@@ -3,11 +3,46 @@
 /*the algorithm has been designed based on 
     [1]	P. Nourian, R. Gonçalves, S. Zlatanova, K. A. Ohori, and A. Vu Vo, “Voxelization algorithms for geospatial applications: Computational methods for voxelating spatial datasets of 3D city models containing 3D surface, curve and point data models,” MethodsX, vol. 3, pp. 69–86, 2016.
     [2]	F. De Luca, “Solar Form-finding . Subtractive Solar Envelope and Integrated Solar Collection Computational Method for High-rise Bui ....,” Proc. 37th Annu. Conf. Assoc. Comput. Aided Des. Archit. (ACADIA 2017), no. November, pp. 212–221, 2017.
-    The code has been written by Pirouz Nourian:
+    The code has been written by Pirouz Nourian and Sama Rezvani:
     BSD 3-Clause License
     Copyright (c) 2018, Pirouz Nourian
     All rights reserved.
     A full description of the license is privided in the git repository: https://gitlab.com/Pirouz-Nourian/spatial_computing/tree/master  
+    
+    Modified BSD 3-Clause License
+
+Copyright (c) 2018, Pirouz Nourian & Sama Rezvani
+All rights reserved.
+
+Commerical or Academic use is permitted provided the work is adequately cited and attributed to the author. This work can be cited as follows:
+
+Nourian, Pirouz, and Rezvani ,Sama, Voxelated Solar Envelope, 2018, avaiable at https://gitlab.com/Pirouz-Nourian/spatial_computing
+
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */  
     int n = SunVecs.Count;
     int PointCount = Points.Count;
