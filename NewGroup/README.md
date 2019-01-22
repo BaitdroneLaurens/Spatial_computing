@@ -1,3 +1,0 @@
-# Spatial Computing
-
-Hello everyone
